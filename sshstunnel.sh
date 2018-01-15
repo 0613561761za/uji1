@@ -41,6 +41,8 @@ socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
+/etc/init.d/stunnel4 start
+
 [dropbear]
 connect = 127.0.0.1:4443
 accept = 0.0.0.0:443
